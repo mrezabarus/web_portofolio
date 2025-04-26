@@ -75,6 +75,7 @@ export default function Home() {
             >
               <Image
                 src={pentaho.imageUrl}
+                key={pentaho.id}
                 alt={pentaho.title}
                 width={300}
                 height={100}
