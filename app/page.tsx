@@ -71,11 +71,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
           {imagesPentaho.map((pentaho) => (
-            <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            <div 
+              key={pentaho.id}
+              className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
               <Image
                 src={pentaho.imageUrl}
-                key={pentaho.id}
                 alt={pentaho.title}
                 width={300}
                 height={100}
