@@ -11,7 +11,7 @@ const projects = [
     id: 2,
     title: 'Dashboard 2',
     imageUrl: "/Images/streamlit.png",
-    link: "https://contoh.com/dashboard2",
+    link: "https://hrdashboardv2-onnhgwic3uewwaqvwvsu4j.streamlit.app/",
   },
   {
     id: 3,
