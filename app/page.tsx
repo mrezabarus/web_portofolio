@@ -9,7 +9,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Dashboard 2',
+    title: 'Dashboard with HR Sentimen',
     imageUrl: "/Images/streamlit.png",
     link: "https://hrdashboardv2-onnhgwic3uewwaqvwvsu4j.streamlit.app/",
   },
